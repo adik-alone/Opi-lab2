@@ -23,4 +23,8 @@ public class A implements E {
     public int ae() {
         return java.lang.Math.abs(-7);
     }
+
+    public Object gg() {
+        return new java.util.Random();
+    }
 }
