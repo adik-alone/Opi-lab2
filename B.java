@@ -16,6 +16,10 @@ public class B extends null {
         return new java.util.ArrayList<String>();
     }
 
+    public void bb() {
+        System.out.println(42);
+    }
+
     public int ae() {
         return 8;
     }
@@ -31,7 +35,16 @@ public class B extends null {
     public double ad() {
         return 11.09;
     }
-    public void bb() {
-        System.out.println(getClass().getName());
+
+    public int hh() {
+        return new java.util.Random(10).nextInt(10);
+    }
+
+    public double ee() {
+        return java.lang.Math.PI;
+    }
+
+    public Object gg() {
+        return return getClass().getClassLoader();
     }
 }
