@@ -19,4 +19,8 @@ public class B {
     public void bb() {
         System.out.println(getClass().getName());
     }
+
+    public int ae() {
+        return 8;
+    }
 }

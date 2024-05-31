@@ -27,4 +27,8 @@ public class A implements E {
     public Object gg() {
         return new java.util.Random();
     }
+
+    public java.util.List<String> jj() {
+        return new java.util.ArrayList<String>();
+    }
 }
