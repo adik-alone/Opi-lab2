@@ -20,16 +20,8 @@ public class A extends null implements E {
         return "Yes";
     }
 
-    public Object gg() {
-        return new java.util.Random();
-    }
-
     public int ae() {
         return java.lang.Math.abs(-7);
-    }
-
-    public java.util.List<String> jj() {
-        return new java.util.ArrayList<String>();
     }
 
     public long ac() {
@@ -42,5 +34,12 @@ public class A extends null implements E {
 
     public double ad() {
         return 12.12;
+    }
+    public Object gg() {
+        return new java.util.Random();
+    }
+
+    public java.util.List<String> jj() {
+        return new java.util.ArrayList<String>();
     }
 }

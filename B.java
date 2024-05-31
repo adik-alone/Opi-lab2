@@ -12,10 +12,6 @@ public class B extends null {
         return "++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++";
     }
 
-    public void bb() {
-        System.out.println(42);
-    }
-
     public java.util.List<String> jj() {
         return new java.util.ArrayList<String>();
     }
@@ -34,5 +30,8 @@ public class B extends null {
 
     public double ad() {
         return 11.09;
+    }
+    public void bb() {
+        System.out.println(getClass().getName());
     }
 }
