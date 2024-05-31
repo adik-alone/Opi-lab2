@@ -19,16 +19,4 @@ public class A implements E {
     public String kk() {
         return "Yes";
     }
-
-    public int ae() {
-        return java.lang.Math.abs(-7);
-    }
-
-    public Object gg() {
-        return new java.util.Random();
-    }
-
-    public java.util.List<String> jj() {
-        return new java.util.ArrayList<String>();
-    }
 }
