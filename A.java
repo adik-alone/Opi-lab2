@@ -1,4 +1,4 @@
-public class A implements E {
+public class A extends null implements E {
 
     private long a = 1234;
 
@@ -20,19 +20,27 @@ public class A implements E {
         return "Yes";
     }
 
-    public int ae() {
-        return java.lang.Math.abs(-7);
-    }
-
     public Object gg() {
         return new java.util.Random();
+    }
+
+    public int ae() {
+        return java.lang.Math.abs(-7);
     }
 
     public java.util.List<String> jj() {
         return new java.util.ArrayList<String>();
     }
 
+    public long ac() {
+        return 111;
+    }
+
+    public float ff() {
+        return 3.14;
+    }
+
     public double ad() {
-        return java.lang.Math.sqrt(13);
+        return 12.12;
     }
 }

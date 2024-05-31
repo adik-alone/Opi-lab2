@@ -1,4 +1,4 @@
-public class B {
+public class B extends null {
 
     private byte d = 1;
 
@@ -12,19 +12,27 @@ public class B {
         return "++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++";
     }
 
-    public java.util.List<String> jj() {
-        return new java.util.ArrayList<String>();
+    public void bb() {
+        System.out.println(42);
     }
 
-    public void bb() {
-        System.out.println(getClass().getName());
+    public java.util.List<String> jj() {
+        return new java.util.ArrayList<String>();
     }
 
     public int ae() {
         return 8;
     }
 
-    public int[] ii() {
-        return new int[]{0, 1, 2, 3, 4};
+    public void aa() {
+        System.out.println("Hello world!");
+    }
+
+    public Object pp() {
+        return this;
+    }
+
+    public double ad() {
+        return 11.09;
     }
 }
