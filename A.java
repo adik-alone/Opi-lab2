@@ -31,4 +31,8 @@ public class A implements E {
     public java.util.List<String> jj() {
         return new java.util.ArrayList<String>();
     }
+
+    public double ad() {
+        return java.lang.Math.sqrt(13);
+    }
 }
